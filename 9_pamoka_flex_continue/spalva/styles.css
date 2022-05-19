@@ -1,0 +1,57 @@
+header {
+  background-image: url("https://images.unsplash.com/photo-1639718561716-b59d3995d886?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  background-position: center;
+}
+
+#color-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: #06196d;
+  opacity: 0.5;
+  position: absolute;
+}
+
+header p {
+  font-size: 40px;
+  width: 85%;
+  padding: 5rem 5rem 0 5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid;
+  margin: auto;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+header div form {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 5rem 5rem 5rem 5rem;
+  width: 60%;
+  position: relative;
+  color: white;
+  z-index: 1;
+}
+
+.pradzia {
+  padding-right: 2rem;
+}
+
+#link {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+  z-index: 1;
+}
+
+#link:hover {
+  background-color: #06196d;
+  opacity: 0.7;
+}

@@ -1,0 +1,23 @@
+body {
+  background: #eee;
+}
+
+header {
+  background: #fff;
+  width: 50%;
+  margin: 1rem auto;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 2px rgb(69, 69, 69, 0.3);
+}
+
+header img {
+  height: 10rem;
+}
+
+header a {
+  color: black;
+  text-decoration: none;
+  margin: 0 1rem;
+}

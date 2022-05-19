@@ -1,0 +1,66 @@
+nav {
+  display: grid;
+  background: greenyellow;
+  padding: 20px;
+}
+.links {
+  grid-column: 2;
+  text-align: right;
+}
+
+nav a {
+  padding: 0 40px;
+}
+
+.logo {
+  grid-column: 1;
+  text-align: left;
+}
+
+.img {
+  float: right;
+  width: 250px;
+  height: 130px;
+  padding: 10px;
+  padding-top: 0%;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.super {
+  text-align: center;
+  padding: 50px;
+}
+
+.head {
+  padding: 20px;
+}
+
+.html img {
+  float: left;
+  width: 250px;
+  height: 130px;
+  padding: 10px;
+}
+
+.html {
+  margin: 20px;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  padding: 0 40px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

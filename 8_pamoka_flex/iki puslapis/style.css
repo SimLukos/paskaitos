@@ -1,0 +1,99 @@
+body {
+  background-image: url("https://g1.dcdn.lt/images/pix/naturalia-sodas-parduotuve-78268777.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top left;
+  position: relative;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.logo img {
+  max-height: 40px;
+  padding: 5px 0;
+  vertical-align: middle;
+  margin: 1rem;
+}
+
+nav a {
+  color: black;
+  margin-right: 40px;
+}
+
+nav a:last-child {
+  margin-right: 20px;
+}
+
+main {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+#about img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+  padding-right: 1rem;
+}
+
+.zalias {
+  color: rgb(113, 188, 0);
+}
+
+#susisiek input,
+#susisiek textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+#susisiek input[type="submit"] {
+  width: 50%;
+  background-color: rgb(113, 188, 0);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#susisiek table {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#susisiek table,
+td,
+th {
+  border: 1px solid rgb(113, 188, 0);
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: white;
+  text-align: center;
+  padding: 15px 0;
+}

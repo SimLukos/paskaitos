@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  background-image: url("https://images.unsplash.com/photo-1650649703236-d06bab9d2250?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80");
+  color: white;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 10px 10px brown;
+}
+
+header a {
+  color: white;
+}
+
+header h2 {
+  padding-bottom: 20px;
+  font-style: italic;
+}
+
+.main-title {
+  padding: 20px 0;
+  font-weight: 200;
+}
+
+.secound-title {
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+nav {
+  height: 60px;
+  line-height: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  background-color: rgba(255, 255, 255, 0.18);
+}
+
+main {
+  color: rgb(169, 89, 89);
+  padding: 30px;
+  line-height: 1.5;
+  max-width: 700px;
+  margin: auto;
+}
+
+main p {
+  padding: 10px;
+}
+
+section {
+  padding: 10px;
+}
+
+section a:active {
+  color: rgb(120, 5, 5);
+}
+
+.span {
+  background-color: rgb(214, 131, 131);
+  border-radius: 5px;
+}
+
+main h1 {
+  font-weight: 200;
+  padding: 10px;
+}

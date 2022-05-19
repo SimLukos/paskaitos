@@ -1,0 +1,101 @@
+.siaurinimas {
+  margin: 0 auto;
+  width: 70%;
+}
+
+h2 {
+  margin: 0px;
+  padding: 1rem;
+  padding-left: 0rem;
+}
+header {
+  background-color: black;
+}
+
+.logo {
+  background-color: black;
+  max-width: 10%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding-left: 1rem;
+}
+
+.header-links {
+  margin: auto;
+  background-color: rgba(251, 255, 0, 0.83);
+  text-align: right;
+  padding: 1rem;
+}
+
+h1 {
+  margin: auto;
+  width: 70%;
+  padding: 1rem;
+}
+
+p {
+  text-align: justify;
+}
+#about nav {
+  text-align: center;
+  padding: 20px;
+}
+#about a {
+  padding: 1px 20px;
+  background-color: red;
+  border-radius: 10px;
+}
+
+#tables {
+  background-color: rgb(7, 7, 134);
+  color: white;
+  padding: 1rem;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  text-align: center;
+}
+
+table,
+tr,
+td,
+th {
+  border: 1px solid red;
+  border-collapse: collapse;
+}
+
+tfoot {
+  text-align: right;
+}
+
+.up {
+  text-align: center;
+}
+
+.go {
+  color: blue;
+  text-decoration: underline;
+}
+
+h4 {
+  background-color: #dada27;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}

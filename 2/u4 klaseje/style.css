@@ -1,0 +1,28 @@
+.parent {
+  display: flex;
+}
+
+.bendra {
+  display: inline-block;
+  width: 49%;
+  padding: 0;
+  margin: 0;
+}
+.kaire img {
+  width: 25%;
+  margin: 10px;
+}
+
+.desine img {
+  width: 100%;
+}
+
+.desine {
+  border: 1px;
+  border-style: solid;
+}
+
+.desine h3,
+p {
+  padding: 10px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forma</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Create an Account</h1>
+    <section>
+      <form action="">
+        <div id="email">
+          <label for="mail">Email:</label><br />
+          <input type="text" id="mail" placeholder="Enter Email adress" />
+        </div>
+        <div id="password">
+          <label for="psw">Password:</label><br />
+          <input type="password" id="psw" placeholder="Enter password" />
+        </div>
+        <div id="age">
+          <label for="amz">Age:</label><br />
+          <select name="age" id="amz">
+            <option value="" disabled selected>Select Age</option>
+            <option value="1-18">1-18</option>
+            <option value="18-25">18-25</option>
+            <option value="25-99">25-99</option>
+          </select>
+        </div>
+        <div id="textarea">
+          <label for="">Tell us al little about yourself:</label><br />
+          <textarea name="box" id="message" cols="30" rows="10"></textarea>
+        </div>
+        <div id="check">
+          <input type="checkbox" id="terms" required />
+          <label for="terms"
+            >I agree to the <a href="#">terms of service</a></label
+          >
+        </div>
+        <div id="registracija">
+          <button type="submit">Sign up!</button>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>

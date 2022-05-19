@@ -1,0 +1,11 @@
+.bendra {
+  display: grid;
+}
+
+.kaire {
+  grid-column: 1;
+}
+
+.desine {
+  grid-column: 2;
+}

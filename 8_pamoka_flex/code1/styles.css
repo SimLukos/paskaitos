@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 90%;
+  margin: auto;
+  background-image: url("https://www.roadsbridges.com/sites/rb/files/styles/content_type_page/public/Traffic_Safety_63.jpg?itok=PGD5HMCD");
+}
+main {
+  padding: 2rem;
+  background-color: whitesmoke;
+}
+
+#logo_pav {
+  height: auto;
+  width: 6rem;
+  padding: 1rem;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgb(223, 86, 13);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+nav a {
+  padding: 2rem;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: larger;
+}
+
+.temos {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+#subaru {
+  image-rendering: auto;
+  width: 40%;
+  height: auto;
+  float: left;
+  border-radius: 10px;
+  padding: 1rem;
+  padding-top: 0;
+}
+
+h2 {
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+}
+
+p {
+  text-align: justify;
+  padding: 2rem;
+  padding-top: 0;
+}
+
+ul {
+  padding-left: 2rem;
+}
+
+.who_we_are {
+  flex: 1;
+}
+
+.what_we_do {
+  flex: 1.5;
+}
+
+.readmore {
+  color: white;
+  background-color: rgb(223, 86, 13);
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+nav.more {
+  justify-content: flex-end;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
