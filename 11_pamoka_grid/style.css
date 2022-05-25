@@ -1,0 +1,72 @@
+main {
+  display: grid;
+  grid-template-areas:
+    "pirma pirma antra antra"
+    "pirma pirma trecia ketvirta"
+    "penkta penkta sesta sesta"
+    "penkta penkta septinta astunta";
+
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 5rem 5rem 5rem 5rem;
+  justify-content: space-evenly;
+}
+
+.pirma {
+  grid-area: pirma;
+  margin: 10px;
+  background: #f26247;
+}
+
+.antra {
+  grid-area: antra;
+  margin: 10px;
+  background: #f26247;
+}
+
+.trecia {
+  grid-area: trecia;
+  margin: 10px;
+  background: #f26247;
+}
+
+.ketvirta {
+  grid-area: ketvirta;
+  margin: 10px;
+  background: #f26247;
+}
+
+.penkta {
+  grid-area: penkta;
+  margin: 10px;
+  background: #acd7e7;
+}
+
+.sesta {
+  grid-area: sesta;
+  margin: 10px;
+  background: #acd7e7;
+}
+
+.septinta {
+  grid-area: septinta;
+  margin: 10px;
+  background: #acd7e7;
+}
+
+.astunta {
+  grid-area: astunta;
+  margin: 10px;
+  background: #acd7e7;
+}
+
+.pirma,
+.antra,
+.trecia,
+.ketvirta,
+.penkta,
+.sesta,
+.septinta,
+.astunta {
+  padding: 1.5rem 0;
+  text-align: center;
+}
