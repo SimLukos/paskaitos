@@ -4,10 +4,15 @@ header img {
   margin: 1rem;
 }
 
-header h1 {
+h1,
+h2 {
   font-family: "Roboto", sans-serif;
   color: #585858;
   margin: 1rem;
+}
+
+h2 {
+  font-size: medium;
 }
 
 main div p {
@@ -41,31 +46,80 @@ main div p {
   margin-bottom: 2rem;
 }
 
-.magna {
+/* .magna {
   background-image: url("https://images.unsplash.com/photo-1653892184794-bb382ec8d326?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80");
-  background-size: cover;
-  border-radius: 5px;
-  background-position: center;
-  position: relative;
-}
+} */
 
 .ultri {
   background-image: url("https://images.unsplash.com/photo-1653844535864-a3c61a70dab7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1468&q=80");
-  background-size: cover;
-  border-radius: 5px;
-  background-position: center;
 }
 
 .dictum {
   background-image: url("https://images.unsplash.com/photo-1653838914347-fc7582d271ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80");
-  background-size: cover;
-  border-radius: 5px;
-  background-position: center;
 }
 
 .pretium {
   background-image: url("https://images.unsplash.com/photo-1653749576886-059215c7a777?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+}
+
+.pav {
   background-size: cover;
   border-radius: 5px;
   background-position: center;
+}
+.footer {
+  padding: 1rem;
+  background-color: #f6f6f6;
+}
+.soc_icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 1rem;
+}
+
+.soc_icons a {
+  border: 2px solid #585858;
+  margin: 1rem 0 0 1rem;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+}
+
+a img {
+  width: 33px;
+  height: 33px;
+  padding: 0.25rem;
+}
+
+.form {
+  margin: 1rem;
+}
+
+.form input,
+.form textarea {
+  margin-top: 1rem;
+  border: none;
+  border-bottom: 1px solid #585858;
+  width: 100%;
+  color: #585858;
+  background-color: #f6f6f6;
+}
+
+.but {
+  border: none;
+  border-radius: 5px;
+  background-color: #585858;
+  font-weight: bold;
+  color: white;
+  height: 1.5rem;
+  width: 100%;
+}
+.copyrights {
+  margin: 1rem;
+}
+
+.copyrights h4 {
+  text-align: center;
+  color: #585858;
 }
