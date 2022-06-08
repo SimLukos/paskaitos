@@ -1,0 +1,88 @@
+@import "./mixins/mixins";
+@import "./mixins/variables";
+
+body {
+  background-color: $bodyColor;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto 2rem;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  padding: 1rem 0;
+  max-width: 1000px;
+  @include largerScreen {
+    flex-direction: row;
+  }
+
+  .cont {
+    width: auto;
+    border-bottom: 2px solid $bodyColor;
+    padding: 0 1rem;
+    @include largerScreen {
+      border-bottom: none;
+      border-right: 2px solid $bodyColor;
+    }
+
+    &:last-child {
+      border: none;
+    }
+  }
+}
+
+.title {
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+}
+
+.price {
+  display: flex;
+  width: 50%;
+  background-color: $bodyColor;
+  border-radius: 10px;
+  justify-content: center;
+  margin: 1.5rem auto 0;
+  .number {
+    text-align: right;
+    font-weight: $priceFontWeight;
+    font-size: 2rem;
+    color: white;
+  }
+  .curency {
+    text-align: left;
+    font-weight: $priceFontWeight;
+    color: white;
+  }
+}
+
+button {
+  border: 2px solid #57609c;
+  border-radius: 5px;
+  color: #57609c;
+  background-color: white;
+  padding: 0.5rem 2rem;
+  margin-top: 1.5rem;
+  &:hover {
+    background-color: #57609c;
+    color: white;
+    transition: 0.5s;
+  }
+}
+
+.button-explain {
+  @include greyFont();
+}
+
+p {
+  margin-top: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.included-title {
+  @extend p;
+  font-weight: bold;
+}

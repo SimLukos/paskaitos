@@ -1,0 +1,10 @@
+@mixin greyFont {
+  font-size: smaller;
+  color: gray;
+}
+
+@mixin largerScreen {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
