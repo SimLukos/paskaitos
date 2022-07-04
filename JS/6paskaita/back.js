@@ -15,11 +15,11 @@ document.getElementById("triangle").addEventListener("click", () => {
 
 // Pyramid
 document.getElementById("pyramid").addEventListener("click", () => {
-  let n = 5;
+  let n = 10;
   let string = "";
   for (let i = 1; i <= n; i++) {
     for (let tar = 1; tar <= n - i; tar++) {
-      string += "&nbsp";
+      string += " &nbsp";
     }
     for (let z = 0; z < 2 * i - 1; z++) {
       string += "*";
@@ -31,7 +31,7 @@ document.getElementById("pyramid").addEventListener("click", () => {
 
 // Reverse Pyramid
 document.getElementById("reverse").addEventListener("click", () => {
-  let n = 5;
+  let n = 10;
   let string = "";
   for (let i = 0; i < n; i++) {
     //   tarpams
